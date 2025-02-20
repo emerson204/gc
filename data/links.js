@@ -21,12 +21,12 @@ export const links = [
   },
   {
     id: 5,
-    url: "/maquinaria",
+    url: "/maquinarias",
     nombre: "Maquinaria",
   },
   {
     id: 6,
-    url: "/planta",
-    nombre: "Planta",
+    url: "/contacto",
+    nombre: "Contacto",
   },
 ];

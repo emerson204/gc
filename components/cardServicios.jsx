@@ -1,13 +1,11 @@
 "use client";
-
-import { serviciosData } from "@/data/serviciosData";
 import Image from "next/image";
 import { Carousel } from "nuka-carousel";
 
-export default function CardServicios() {
+export default function CardServicios({ data }) {
   return (
     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-11 ">
-      {serviciosData.map((servicio) => (
+      {data.map((servicio) => (
         <div key={servicio.id}>
           <div className=" h-[16.875rem] lg:h-[18.125rem] flex items-center justify-center overflow-hidden mb-4 md:mb-5 rounded-md">
             <Carousel showArrows>
@@ -18,7 +16,7 @@ export default function CardServicios() {
                   alt={servicio.alt}
                   width="500"
                   height="500"
-                  className="w-full"
+                  className="w-full flex-shrink-0"
                 />
               ))}
             </Carousel>

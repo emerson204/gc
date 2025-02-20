@@ -6,6 +6,10 @@ body {
   font-family: var(--font-poppins-regular), Arial, sans-serif;
 }
 
+.poppins-regular {
+  font-family: var(--font-poppins-regular), Arial, sans-serif;
+}
+
 .poppins-medium {
   font-family: var(--font-poppins-medium), Arial, sans-serif;
 }
@@ -25,6 +29,10 @@ body {
 
 .shadow {
   box-shadow: 0 4px 17px rgba(149, 157, 165, 0.21);
+}
+
+.letra {
+  list-style-type: lower-alpha;
 }
 
 @layer base {

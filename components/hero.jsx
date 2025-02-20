@@ -4,7 +4,7 @@ import BtnAnchor from "./btnAnchor";
 
 export default function Hero() {
   return (
-    <section className="bg-[url('/planta-gc.jpg')] bg-no-repeat bg-cover bg-center h-[23rem] md:h-[28rem] lg:h-[35.7rem] relative after:content-[''] after:absolute after:inset-0 after:bg-black/65">
+    <section className="bg-[url('https://res.cloudinary.com/dy3pthdns/image/upload/f_auto,q_auto/v1738881106/planta-gc_ldeh5z.jpg')] bg-no-repeat bg-cover bg-center h-[23rem] md:h-[28rem] lg:h-[35.7rem] relative after:content-[''] after:absolute after:inset-0 after:bg-black/65">
       <div className="contenedor px-4 text-white relative z-10 h-full flex flex-col justify-center">
         <h1 className="text-[1.79rem] sm:text-3xl md:text-4xl leading-8 mb-3 md:mb-5 lg:mb-6 lg:text-6xl poppins-bold sm:max-w-[60%] md:max-w-[75%] lg:max-w-[69%] lg:leading-[4.2rem]">
           Construimos caminos hacia el futuro

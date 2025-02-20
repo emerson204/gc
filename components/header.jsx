@@ -1,13 +1,24 @@
 "use client";
 
 import Image from "next/image";
-import NavLinks from "./navLinks";
-import MenuMobile from "./menuMobile";
 import { FaPhoneAlt } from "react-icons/fa";
 import { useRouter } from "next/navigation";
 import TopBar from "./topBar";
+import Navbar from "./navBar";
+import { FiMenu } from "react-icons/fi";
+import { useState } from "react";
 
 export default function Header() {
+  const [open, setOpen] = useState(false);
+
+  const handleMenu = () => {
+    setOpen(!open);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
+
   const router = useRouter();
 
   return (
@@ -22,17 +33,18 @@ export default function Header() {
               height="55"
               alt="logo grupo castillo"
               onClick={() => router.push("/")}
+              className="cursor-pointer"
             />
           </div>
 
-          <nav className="hidden md:flex ">
-            <NavLinks />
-          </nav>
+          <Navbar open={open} handleClose={handleClose} />
 
           <div className="md:hidden">
-            <MenuMobile />
+            <FiMenu
+              className={`md:hidden ${open ? "hidden" : "block"} text-3xl`}
+              onClick={handleMenu}
+            />
           </div>
-
           <div className="hidden lg:flex flex-grow basis-0 justify-end">
             <a
               href="tel:+51979906253"

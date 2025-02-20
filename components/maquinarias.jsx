@@ -15,19 +15,22 @@ export default function Maquinarias() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-9 lg:gap-10">
           <CardMaquinas
-            imagen="/camion.png"
+            imagen="https://res.cloudinary.com/dy3pthdns/image/upload/f_auto,q_auto/v1738882694/camion_ipdqzp.png"
             alt="imagen de un camnion imprimador"
             titulo="CAMION IMPRIMADOR"
+            descripcion="Aplica emulsión asfáltica sobre la base antes del asfaltado para mejorar adherencia."
           />
           <CardMaquinas
-            imagen="/planta.png"
+            imagen="https://res.cloudinary.com/dy3pthdns/image/upload/f_auto,q_auto/v1738882695/planta-gc_o9b99h.jpg"
             alt="imagen de planta de asfalto"
             titulo="PLANTA DE ASFALTO"
+            descripcion="Mezcla y calienta materiales para producir asfalto utilizado en pavimentación."
           />
           <CardMaquinas
             imagen="/cargador.png"
             alt="imagen de un cargador frontal"
             titulo="CARGADOR FRONTAL"
+            descripcion="Equipo pesado con pala frontal para cargar, mover y apilar materiales."
           />
         </div>
 

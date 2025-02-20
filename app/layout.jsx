@@ -1,8 +1,9 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/header";
-import TopBar from "@/components/topBar";
 import BtnLlamadaFlotante from "@/components/btnLlamadaFlotante";
+import Footer from "@/components/footer";
+import BtnContactoFlotante from "@/components/btnContactoFlotante";
 
 const poppinsLight = localFont({
   src: "./fonts/Poppins-Light.woff2",
@@ -47,7 +48,9 @@ export default function RootLayout({ children }) {
       >
         <Header />
         {children}
+        <BtnContactoFlotante />
         <BtnLlamadaFlotante />
+        <Footer />
       </body>
     </html>
   );

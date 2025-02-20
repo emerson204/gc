@@ -6,7 +6,7 @@ export default function CardsCalidad() {
     <div className="grid md:grid-cols-2 gap-5 md:gap-6 lg:gap-4">
       <div className="bg-grisSemi py-6 px-5 md:py-5 lg:py-4 rounded-2xl">
         <Image
-          src="/gota.png"
+          src="https://res.cloudinary.com/dy3pthdns/image/upload/f_auto,q_auto/v1738881688/gota_lb3fb6.png"
           alt="gota"
           width="45"
           height="45"
@@ -34,7 +34,7 @@ export default function CardsCalidad() {
       </div>
       <div className="bg-grisSemi py-6 md:py-5 lg:py-4 px-5 rounded-2xl">
         <Image
-          src="/dollar.png"
+          src="https://res.cloudinary.com/dy3pthdns/image/upload/f_auto,q_auto/v1738881688/dollar_qvcisw.png"
           alt="dollar"
           width="45"
           height="45"
@@ -53,7 +53,7 @@ export default function CardsCalidad() {
       </div>
       <div className="bg-grisSemi py-6 md:py-5 lg:py-4 px-5 rounded-2xl">
         <Image
-          src="/tabler.png"
+          src="https://res.cloudinary.com/dy3pthdns/image/upload/f_auto,q_auto/v1738881690/tabler_dmff6s.png"
           alt="tabler"
           width="45"
           height="45"
@@ -80,7 +80,7 @@ export default function CardsCalidad() {
       </div>
       <div className="bg-grisSemi py-6 md:py-5 lg:py-4 px-5 rounded-2xl">
         <Image
-          src="/location.png"
+          src="https://res.cloudinary.com/dy3pthdns/image/upload/f_auto,q_auto/v1738881689/location_rfmvjh.png"
           alt="location"
           width="45"
           height="45"
